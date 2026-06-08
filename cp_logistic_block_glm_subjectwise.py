@@ -42,7 +42,7 @@ OUT_CSV = os.path.join(
 # PARAMETRY EKSPERYMENTU
 # =========================================================
 
-RANKS = [1, 2, 3]
+RANKS = [3]
 
 TEST_SIZE = 0.2
 RANDOM_STATE = 42
@@ -51,7 +51,7 @@ N_EPOCHS = 5
 
 # W sklearn większe C = słabsza regularyzacja.
 # Mniejsze C = mocniejsza regularyzacja.
-C_L2 = 1.0
+C_L2 = 0.3
 
 NORMALIZE_SUBJECT = True
 
@@ -609,7 +609,6 @@ def evaluate(paths, indices, y_true, A, B, C, D, bias):
         "logit_mean": float(logits.mean()),
         "logit_std": float(logits.std())
     }
-
 
 # =========================================================
 # EKSPERYMENT
