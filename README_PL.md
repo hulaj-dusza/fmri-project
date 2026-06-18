@@ -18,6 +18,7 @@ Projekt odpowiada między innymi na następujące pytania:
 
 * Czy regresja tensorowa o niskiej randze pozwala rozróżniać uczestników z ASD i osoby z grupy kontrolnej?
 * Jak modele CP wypadają w porównaniu z klasyczną regresją logistyczną opartą na wszystkich wokselach?
+* Jaki wpływ na wyniki mają ranga tensora, siła regularyzacji oraz wybór preprocessingu?
 
 ## Dane
 
