@@ -19,7 +19,6 @@ The main objective is to evaluate whether high-dimensional neuroimaging data can
 The project addresses the following research questions:
 
 * Can low-rank tensor regression distinguish ASD participants from control participants?
-* How does model performance depend on the tensor representation of neuroimaging data?
 * How do CP tensor models compare with conventional voxel-wise logistic regression?
 * What is the influence of tensor rank, regularization strength, and preprocessing choices on classification performance?
 
