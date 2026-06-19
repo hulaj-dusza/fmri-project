@@ -51,13 +51,13 @@ $$
 
 The model predicts the probability of ASD using logistic tensor regression:
 
-$$
+```math
 P(y_i = 1 \mid \mathcal{X}_i)
 =
 \sigma\left(
 \beta_0 + \left\langle \mathcal{X}_i, \mathcal{B} \right\rangle
 \right)
-$$
+```
 
 where $\mathcal{B}$ is a coefficient tensor, $\beta_0$ is the intercept, and $\sigma$ is the logistic sigmoid function:
 
