@@ -168,10 +168,5 @@ Wyniki należy interpretować jako rezultaty eksploracyjne, a nie jako miarę ja
 ## Dalsze kierunki pracy
 
 * Systematyczne porównanie różnych rang CP i wartości regularyzacji.
-* Porównanie reprezentacji ReHo, fALFF oraz fMRI 4D.
-* Rozszerzenie analiz o regresję tensorową Tucker.
-* Rekonstrukcja i wizualizacja wyuczonych tensorów współczynników.
-* Uwzględnienie kowariatów demograficznych, klinicznych i związanych z ruchem głowy.
-* Harmonizacja między ośrodkami oraz bardziej rygorystyczna nested cross-validation.
 * Porównanie z dodatkowymi modelami uczenia maszynowego.
 
