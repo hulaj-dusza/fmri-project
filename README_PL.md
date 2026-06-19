@@ -44,35 +44,41 @@ Głównym obszarem metodologicznym projektu jest regresja tensorowa, w szczegól
 
 Dla tensora opisującego uczestnika:
 
-[
-\mathcal{X}_i \in \mathbb{R}^{p_1 \times p_2 \times p_3},
-]
+```math
+\mathcal{X}_i \in \mathbb{R}^{p_1 \times p_2 \times p_3}
+```
 
-model przewiduje prawdopodobieństwo przynależności do grupy ASD:
+model przewiduje prawdopodobieństwo przynależności do grupy ASD za pomocą logistycznej regresji tensorowej:
 
-[
+```math
 P(y_i = 1 \mid \mathcal{X}_i)
-=============================
-
+=
 \sigma\left(
 \beta_0 +
-\langle \mathcal{X}_i, \mathcal{B} \rangle
-\right),
-]
+\left\langle \mathcal{X}_i, \mathcal{B} \right\rangle
+\right)
+```
 
-gdzie (\mathcal{B}) jest tensorem współczynników, a (\sigma) oznacza funkcję sigmoidalną.
+gdzie $\mathcal{B}$ jest tensorem współczynników, $\beta_0$ jest wyrazem wolnym, a $\sigma$ oznacza funkcję sigmoidalną:
+
+```math
+\sigma(z) = \frac{1}{1 + e^{-z}}
+```
 
 Aby ograniczyć liczbę parametrów, tensor współczynników jest aproksymowany przez rozkład CP:
 
-[
+```math
 \mathcal{B}
 \approx
 \sum_{r=1}^{R}
 \lambda_r
 \mathbf{a}_r \circ
 \mathbf{b}_r \circ
-\mathbf{c}_r.
-]
+\mathbf{c}_r
+```
+
+gdzie $R$ oznacza rangę CP, $\lambda_r$ są wagami składowych, a $\mathbf{a}_r$, $\mathbf{b}_r$ i $\mathbf{c}_r$ są wektorami czynników odpowiadającymi kolejnym wymiarom tensora.
+
 
 Projekt obejmuje eksperymenty z wykorzystaniem:
 
