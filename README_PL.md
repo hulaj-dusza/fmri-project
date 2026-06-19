@@ -96,7 +96,7 @@ Repozytorium jest podzielone na branche reprezentujące różne etapy rozwoju pr
 | `feature/cp-als-logistic`       | Eksperymenty CP-ALS-inspired logistic regression         |
 | `feature/cv-comparison`         | Walidacja krzyżowa i porównywanie modeli                 |
 | `feature/benchmark-flat-logreg` | Klasyczny model bazowy: regresja logistyczna wokselowa   |
-| `abide-3d-reho-falff`           | Eksperymenty klasyfikacyjne na mapach 3D ReHo oraz fALFF |
+| `feature/cp-3d-als-logistic`    | Eksperymenty klasyfikacyjne na mapach 3D ReHo            |
 
 Lista branchy może być aktualizowana wraz z rozwojem projektu.
 
