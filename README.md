@@ -2,7 +2,6 @@
 
 # Tensor Regression for Neuroimaging
 
-[Polska wersja / Polish version](README_PL.md)
 
 ## Overview
 
